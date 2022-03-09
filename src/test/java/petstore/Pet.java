@@ -42,6 +42,8 @@ public class Pet {
                .statusCode(200)
                .body("name", is("Lolipop"))
                .body("status", is("available"))
+               .body("category.name", is("dog"))
+               .body("tags.name", contains("status"))
        ;
     }
 
