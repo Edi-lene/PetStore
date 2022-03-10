@@ -1,5 +1,5 @@
-Request method:	POST
-1Request URI:	https://petstore.swagger.io/v2/pet
+Request method:	GET
+BRequest URI:	https://petstore.swagger.io/v2/swagger.json/1983257
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -9,54 +9,18 @@
 #				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:
-{
-    "id": "0710717",
-    "category": {
-        "id": 1,
-        "name": "dog"
-    },
-    "name": "Lolipop",
-    "photoUrls": [
-        "string"
-    ],
-    "tags": [
-
-        {
-            "id": 2022,
-            "name": "status"
-
-        }
-    ],
-    "status": "available"
-}
-HTTP/1.1 200 OK
-%Date: Wed, 09 Mar 2022 16:57:09 GMT
- Content-Type: application/json
-Transfer-Encoding: chunked
+Body:			<none>
+HTTP/1.1 404 Not Found
+%Date: Thu, 10 Mar 2022 13:18:06 GMT
+Content-Type: application/xml
+Content-Length: 185
 Connection: keep-alive
  Access-Control-Allow-Origin: *
 6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
  Server: Jetty(9.2.9.v20150224)
 
-{
-    "id": 710717,
-    "category": {
-        "id": 1,
-        "name": "dog"
-    },
-    "name": "Lolipop",
-    "photoUrls": [
-        "string"
-    ],
-    "tags": [
-
-        {
-            "id": 2022,
-            "name": "status"
-
-        }
-    ],
-    "status": "available"
-}
+<apiResponse>
+V  <message>null for uri: http://petstore.swagger.io/v2/swagger.json/1983257</message>
+  <type>unknown</type>
+</apiResponse>
