@@ -1,5 +1,5 @@
-Request method:	GET
-BRequest URI:	https://petstore.swagger.io/v2/swagger.json/1983257
+Request method:	POST
+:Request URI:	https://petstore.swagger.io/v2/swagger.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -9,11 +9,31 @@
 #				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 404 Not Found
-%Date: Thu, 10 Mar 2022 13:18:06 GMT
+Body:
+{
+    "id": "1983257",
+    "category": {
+        "id": 1,
+        "name": "Adi7e"
+    },
+    "name": "Lopop",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+
+        {
+            "id": "Adi7e",
+            "name": "data"
+
+        }
+    ],
+    "status": "available"
+}
+!HTTP/1.1 405 Method Not Allowed
+%Date: Thu, 10 Mar 2022 14:23:12 GMT
 Content-Type: application/xml
-Content-Length: 185
+Content-Length: 102
 Connection: keep-alive
  Access-Control-Allow-Origin: *
 6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
@@ -21,6 +41,96 @@
  Server: Jetty(9.2.9.v20150224)
 
 <apiResponse>
-V  <message>null for uri: http://petstore.swagger.io/v2/swagger.json/1983257</message>
   <type>unknown</type>
 </apiResponse>
+Request method:	GET
+BRequest URI:	https://petstore.swagger.io/v2/swagger.json/1983257
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+%Date: Thu, 10 Mar 2022 14:23:14 GMT
+Content-Type: application/xml
+Content-Length: 185
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+<apiResponse>
+V  <message>null for uri: http://petstore.swagger.io/v2/swagger.json/1983257</message>
+  <type>unknown</type>
+</apiResponse>
+Request method:	PUT
+:Request URI:	https://petstore.swagger.io/v2/swagger.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "1983257",
+    "category": {
+        "id": 1,
+        "name": "Adi7e"
+    },
+    "name": "Lopop",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+
+        {
+            "id": "Adi7e",
+            "name": "data"
+
+        }
+    ],
+    "status": "sold"
+}
+!HTTP/1.1 405 Method Not Allowed
+%Date: Thu, 10 Mar 2022 14:23:15 GMT
+Content-Type: application/xml
+Content-Length: 102
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+<apiResponse>
+  <type>unknown</type>
+</apiResponse>
+Request method:	DELETE
+BRequest URI:	https://petstore.swagger.io/v2/swagger.json/1983257
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 Server Error
+%Date: Thu, 10 Mar 2022 14:23:16 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
